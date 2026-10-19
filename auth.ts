@@ -1,6 +1,7 @@
 import NextAuth from "next-auth";
 import type { Provider } from "next-auth/providers";
 import GitHub from "next-auth/providers/github";
+import Twitch from "next-auth/providers/twitch";
 // PRÁCTICA: importa aquí el proveedor que vas a agregar, por ejemplo:
 // import Twitch from "next-auth/providers/twitch";
 
@@ -12,6 +13,7 @@ import GitHub from "next-auth/providers/github";
  */
 const providers: Provider[] = [
   GitHub,
+  Twitch,
   // PRÁCTICA: agrega aquí tu proveedor, por ejemplo:
   // Twitch,
 ];
